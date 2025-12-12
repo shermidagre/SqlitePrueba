@@ -177,8 +177,7 @@ class MainActivity : ComponentActivity() {
         Log.d(TAG, "Valores encontrados = $itemIdsA")
 
         // Cerramos el segundo cursor
-        cursorA.close() // NOTA: En tu código original cerrabas 'cursor' de nuevo, corregido a 'cursorA' o la lógica fallaría si 'cursor' ya estaba cerrado.
-        // (He asumido que querías cerrar cursorA aquí).
+        cursorA.close()
 
 
         // 4. BORRADO (DELETE)
