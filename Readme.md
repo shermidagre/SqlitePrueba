@@ -44,11 +44,11 @@ class FeedReaderDbHelper(context: Context) : SQLiteOpenHelper(...) {
     override fun onCreate(db: SQLiteDatabase) { ... }
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) { ... }
     override fun onDowngrade(...) { ... }
-    
+
     companion object {
-        const val DATABASE_VERSION = 1
-        const val DATABASE_NAME = "FeedReader.db"
-    }
+    const val DATABASE_VERSION = 1
+    const val DATABASE_NAME = "FeedReader.db"
+}
 }
 ```
 
